@@ -67,6 +67,7 @@ html {
 }
 
 .btn-crear {
+  width:10rem;
   background-color: transparent;
   padding: 1.4rem 1.6rem;
   border-radius: 4.5rem;
@@ -78,13 +79,13 @@ html {
 }
 
 .container-buscar {
-  width: 78vw;
+  width: 75vw;
   display: flex;
   align-items: center;
 }
 
 .buscar {
-  width: 100vw;
+  width: 60vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,7 +129,7 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 6px;
 }
 
 .items i {
@@ -315,8 +316,7 @@ section .card-image {
   }
 
   .btn-crear {
-    background-color: none;
-    width:90px;
+    display: none
   }
 
   .espacio-imgs {
